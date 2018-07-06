@@ -1,6 +1,6 @@
 
 import { connect } from 'react-redux';
-import searchBar from './searchBar';
+import searchBar from './SearchBar';
 
 // This function takes the store and returns an object
 // that's passed to the props of the component.
