@@ -1,5 +1,0 @@
-deployment:
-  staging:
-  branch: master
-  heroku:
-    appname: fathomless-forest-60028
