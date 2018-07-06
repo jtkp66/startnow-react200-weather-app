@@ -5,10 +5,11 @@
   "main": "server/index.js",
   "scripts": {
     "build": "npm run less && webpack -w --mode development",
-    "start": "npm run build && node server/index.js",
+    "start": "node server",
     "less": "lessc src/css/style.less dist/css/style.css",
     "lint": "eslint .",
-    "test": "npm run build && mocha test/.setup.js test/*.spec.js --exit"
+    "test": "npm run build && mocha test/.setup.js test/*.spec.js --exit",
+    "heroku-postbuild": "npm run less && webpack --mode production"
   },
   "dependencies": {
     "axios": "^0.16.2",
@@ -31,6 +32,7 @@
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-redux": "^5.0.6",
+    "react-sparklines": "^1.7.0",
     "redux": "^3.7.2",
     "redux-devtools": "^3.4.0",
     "redux-promise-middleware": "^5.1.1",
