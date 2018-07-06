@@ -12,7 +12,7 @@ class SearchHistory extends Component {
 
         return (
             <div className="card">
-                <div className="card-header">Search History</div>
+                <div className="card-header font-weight-bold">Search History</div>
                 <div className="card-body">
                 <table className="table table-hover">
                 <tbody>

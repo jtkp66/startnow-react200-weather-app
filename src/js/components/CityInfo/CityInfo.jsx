@@ -18,7 +18,7 @@ class CityInfo extends Component {
         // }
         return (
             <div className='card text-center'>
-                <div className="card-header">City Information</div>
+                <div className="card-header font-weight-bold">City Information</div>
                 <div className="card-body">
                     <div>
                     <h1>{weatherData && weatherData.name}</h1>
