@@ -40,7 +40,7 @@ export default class SearchBar extends Component {
 
     render() {
         return (
-            <div>
+            <div className="container">
                 <button className="btn btn-secondary mb-2" 
                         value="San Diego"
                         onClick={this.handleShortcut} 
