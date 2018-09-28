@@ -6,7 +6,7 @@ const defaultState = {
 }
 
 
-
+            
 export default function (state = defaultState, action) {
     // console.log('Action received', action );
     switch (action.type) { //setup switch statement to only get FETCH_WEATHER TYPE

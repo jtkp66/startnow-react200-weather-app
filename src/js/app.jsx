@@ -9,7 +9,7 @@ export default class App extends React.Component {
       <div className='container'>
         <div className='jumbotron mt-5' >
           <div className='head-container'>
-            <h1 className='page-title'>Best Redux Weather App Ever</h1>
+            <h1 className='page-title'>Weather Checker</h1>
             <p className='page-description'>Always know if you need an umbrella!</p>
           </div>
         </div>

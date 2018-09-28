@@ -21,7 +21,7 @@ class CityInfo extends Component {
                 <div className="card-header font-weight-bold">City Information</div>
                 <div className="card-body">
                     <div>
-                    <h1>{weatherData && weatherData.name}</h1>
+                        <h1>{weatherData && weatherData.name}</h1>
                         <p>{!weatherData.name ? 'Coordinates' : `Lat / Lng: ${weatherData.coord.lat}, ${weatherData.coord.lon}`}</p>
                         {weatherData.name &&
                             <img
